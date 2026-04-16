@@ -1,0 +1,14 @@
+D:\Hornetsecurity\HomeAssignment\HomeAssignment\bin\Debug\net9.0\HomeAssignment.exe
+D:\Hornetsecurity\HomeAssignment\HomeAssignment\bin\Debug\net9.0\HomeAssignment.deps.json
+D:\Hornetsecurity\HomeAssignment\HomeAssignment\bin\Debug\net9.0\HomeAssignment.runtimeconfig.json
+D:\Hornetsecurity\HomeAssignment\HomeAssignment\bin\Debug\net9.0\HomeAssignment.dll
+D:\Hornetsecurity\HomeAssignment\HomeAssignment\bin\Debug\net9.0\HomeAssignment.pdb
+D:\Hornetsecurity\HomeAssignment\HomeAssignment\obj\Debug\net9.0\HomeAssignment.GeneratedMSBuildEditorConfig.editorconfig
+D:\Hornetsecurity\HomeAssignment\HomeAssignment\obj\Debug\net9.0\HomeAssignment.AssemblyInfoInputs.cache
+D:\Hornetsecurity\HomeAssignment\HomeAssignment\obj\Debug\net9.0\HomeAssignment.AssemblyInfo.cs
+D:\Hornetsecurity\HomeAssignment\HomeAssignment\obj\Debug\net9.0\HomeAssignment.csproj.CoreCompileInputs.cache
+D:\Hornetsecurity\HomeAssignment\HomeAssignment\obj\Debug\net9.0\HomeAssignment.dll
+D:\Hornetsecurity\HomeAssignment\HomeAssignment\obj\Debug\net9.0\refint\HomeAssignment.dll
+D:\Hornetsecurity\HomeAssignment\HomeAssignment\obj\Debug\net9.0\HomeAssignment.pdb
+D:\Hornetsecurity\HomeAssignment\HomeAssignment\obj\Debug\net9.0\HomeAssignment.genruntimeconfig.cache
+D:\Hornetsecurity\HomeAssignment\HomeAssignment\obj\Debug\net9.0\ref\HomeAssignment.dll
