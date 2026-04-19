@@ -18,8 +18,10 @@ namespace HomeAssignment.Services
         {
             using var hasher = IncrementalHash.CreateHash(HashAlgorithmName.SHA256);
             await using var stream = new FileStream(filePath, FileMode.Open, FileAccess.Read, FileShare.Read, bufferSize: 81920, useAsync: true);
+            
             byte[] buffer = new byte[81920];
             int bytesRead;
+
             while ((bytesRead = await stream.ReadAsync(buffer, 0, buffer.Length, ct)) > 0)
             {
                 hasher.AppendData(buffer, 0, bytesRead);
