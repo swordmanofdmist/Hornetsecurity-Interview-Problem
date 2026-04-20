@@ -8,25 +8,18 @@ namespace HomeAssignment.Services
 {
     public static class Hashing
     {
-        public static string ComputeMD5(ReadOnlySpan<byte> data)
-        {
-            byte[] hash = MD5.HashData(data);
-            return Convert.ToHexString(hash);
-        }
-
-        public static async Task<string> ComputeFileSHA256Async(string filePath, CancellationToken ct = default)
-        {
-            using var hasher = IncrementalHash.CreateHash(HashAlgorithmName.SHA256);
-            await using var stream = new FileStream(filePath, FileMode.Open, FileAccess.Read, FileShare.Read, bufferSize: 81920, useAsync: true);
-            
-            byte[] buffer = new byte[81920];
-            int bytesRead;
-
-            while ((bytesRead = await stream.ReadAsync(buffer, 0, buffer.Length, ct)) > 0)
-            {
-                hasher.AppendData(buffer, 0, bytesRead);
-            }
-            return Convert.ToHexString(hasher.GetHashAndReset());
-        }
+        public static string ComputeMD5(byte[] data, int length)
+    {
+        using var md5 = MD5.Create();
+        byte[] hash = md5.ComputeHash(data, 0, length);
+        return Convert.ToHexString(hash);
+    }
+    public static string ComputeFileSHA256(string filePath, CancellationToken ct)
+    {
+        using var sha256 = SHA256.Create();
+        using var stream = File.OpenRead(filePath);
+        byte[] hash = sha256.ComputeHash(stream);
+        return Convert.ToHexString(hash);
+    }
     }
 }

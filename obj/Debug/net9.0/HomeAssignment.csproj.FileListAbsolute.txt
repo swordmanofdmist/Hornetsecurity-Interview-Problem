@@ -12,3 +12,4 @@ D:\Hornetsecurity\HomeAssignment\HomeAssignment\obj\Debug\net9.0\refint\HomeAssi
 D:\Hornetsecurity\HomeAssignment\HomeAssignment\obj\Debug\net9.0\HomeAssignment.pdb
 D:\Hornetsecurity\HomeAssignment\HomeAssignment\obj\Debug\net9.0\HomeAssignment.genruntimeconfig.cache
 D:\Hornetsecurity\HomeAssignment\HomeAssignment\obj\Debug\net9.0\ref\HomeAssignment.dll
+D:\Hornetsecurity\HomeAssignment\HomeAssignment\obj\Debug\net9.0\HomeAssignment.sourcelink.json
